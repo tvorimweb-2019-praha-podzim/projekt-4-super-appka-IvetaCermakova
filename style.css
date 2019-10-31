@@ -30,4 +30,118 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+.hlavicka{
+    display: flex;
+    padding: 15px 15px 15px 30px;
+    justify-content: flex start;      
+}
+
+.logo{
+    font-weight: bold;
+    color: #25133d;
+    margin-right: 40px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;         
+}
+
+li{
+    display: inline-block;  
+}
+
+a{
+    text-decoration: none;
+    color: #25133d;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.barevnypruh{
+    height: 460px;
+}
+
+
+.nazev{
+    position: relative;
+    top: -470px;
+    margin: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 90px; 
+}
+
+.ruka{
+    position: relative;
+    top: -793px;
+    right: -555px;
+}
+
+.motto{
+    position: relative;
+    top: -490px;
+    margin: 40px;
+    color: white;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.tlacitka{
+    position: relative;
+    bottom: 470px;
+}
+
+a.levetlacitko, 
+a.pravetlacitko{
+    color: white;
+    border-style: solid; /*atributy border-style, border-color, border-width jsem musela rozepsat takto pod sebe, protože mi nefungoval ten zjednodušený zápis, kdy je vše na jednom řádku*/
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    box-shadow: 2px 4px 10px #25133d;
+}
+
+a.levetlacitko{
+    margin-left: 40px;
+}
+
+a.pravetlacitko{
+    margin-left: 20px;
+}
+
+a.levetlacitko:hover,
+a.pravetlacitko:hover{
+    background-color: #48418e;
+}
+
+.bilypruh{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.ikonaletadlo,
+.ikonachat,
+.ikonamapa{
+    margin:20px;   
+}
+
+.letadlo,
+.chat,
+.mapa{
+    color: #48418e;
+    font-weight: 700; 
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.copy{
+    background-color: #48418e ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
